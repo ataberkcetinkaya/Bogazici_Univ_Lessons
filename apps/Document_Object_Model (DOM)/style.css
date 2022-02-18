@@ -1,0 +1,17 @@
+.basarili {
+    background-color: green;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.basarisiz {
+    background-color: rgb(175, 2, 2);
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.beklemede {
+    background-color: rgb(233, 229, 0);
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
