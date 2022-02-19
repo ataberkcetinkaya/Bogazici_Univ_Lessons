@@ -1,0 +1,19 @@
+#listbox {
+    margin-top: 20px;
+    margin-left: 20px;
+    border: 1px solid black;
+    width: 500px;
+}
+
+#input {
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.red {
+    color: red;
+  }
+
+  #list {
+      max-width: max-content;
+  }
