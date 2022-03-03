@@ -1,10 +1,9 @@
 let answersheet = ["D", "D", "D", "D"]; //cevap anahtari, cevaplari bununla kiyaslayacagiz.
-//a bug found; need to give 5 if there are 4 answers bc of the "0" point if condition.
 
 let form = document.querySelector("form");
 let info = document.querySelector(".info");
 
-form.addEventListener("submit", e => {
+form.addEventListener("submit", e => { //button form elementinin icerisinde, o yuzden form.addEventListener ile submit olarak giriyoruz.
     e.preventDefault()
     
     let point = 0;
@@ -26,6 +25,7 @@ form.addEventListener("submit", e => {
     }
     if (point === 25) {
         info.style.backgroundColor = "yellow";
+        info.style.color = "black";
         info.textContent = "OK. " + point + " points";
     }
     if (point === 50) {

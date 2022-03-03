@@ -1,6 +1,6 @@
-let input = document.getElementById("input");
-let list = document.getElementById("list");
-let button = document.getElementById("button");
+let input = document.getElementById("input"); //<input id="input" type="text" placeholder="Nickname">
+let list = document.getElementById("list"); //<ul id ="list">
+let button = document.getElementById("button"); //<button id="button" type="button" style="margin-top:10px;"><strong>Insert</strong></button>
 let itemCount = 0; //sayac
 
 button.addEventListener("click", () => {

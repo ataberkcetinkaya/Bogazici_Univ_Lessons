@@ -1,4 +1,4 @@
-let formsec = document.querySelector("form")
+let formsec = document.querySelector("div")
 
 let bilgial = document.querySelector("#getname") //id'ye göre veri çekme, 2. yol
 
