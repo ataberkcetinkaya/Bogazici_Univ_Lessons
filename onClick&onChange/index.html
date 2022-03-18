@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olaylar onClick & OnChange</title>
+</head>
+<body>
+    
+    <button onClick = "window.alert('helloworld')">Hello</button>
+
+    <br><br>
+
+    <input type="text" value="check" onchange = "window.alert('Text changed')"> <!-- onChange, ile input alani degisip degismedigi kontrolu -->
+
+    <br><br>
+    <div>INPUT TEK MI, CIFT MI?</div>
+    
+    <input type="text" onchange="hesapla(this)" value="" placeholder="tek mi, cift mi?"> <!-- hesapla fonksiyonu, neyi hesapla 'this' yani input'u -->
+
+    <script>
+        function hesapla(x) {
+            if(x.value % 2 == 0) {
+                alert(x.value + ": Bu sayi cifttir");
+            }
+            else if(x.value % 2 == 1) {
+                alert(x.value + ": Bu sayi tektir");
+            }
+            else if(x.value < 0) {
+                alert(x.value + ": Pozitif deger girin")
+            }
+            else {
+                alert("Girilen degeri kontrol edin")
+            }
+        }
+    </script>
+</body>
+</html>

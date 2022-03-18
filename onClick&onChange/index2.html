@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olaylar onClick & OnChange 2</title>
+    <style>
+        button {
+            width: 25%;
+        }
+    </style>
+</head>
+<body>
+    
+    <button onclick="control()">Check it!</button>
+
+    <br><br>
+
+    <input id="number" type="text" value=""> <!-- value'yi bos birakiyoruz, orayi biz dolduracagiz -->
+
+
+
+
+
+    <script>
+        function control() {
+            let get_data = document.querySelector("#number");
+            if (get_data.value % 2 == 0) {
+                alert(get_data.value + ": sayi cifttir");
+            }
+            else if(get_data.value % 2 == 1) {
+                alert(get_data.value + ": sayi tektir");
+            }
+            else if(get_data.value < 0) {
+                alert("Pozitif deger girin");
+            } 
+            else {
+                alert("Sayi girin.");
+            }
+        }
+    </script>
+</body>
+</html>
