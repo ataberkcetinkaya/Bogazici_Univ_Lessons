@@ -1,4 +1,4 @@
 -Auto Rename Tag
 -Bracket Pair Colorizer (2)
 -File icons
--JavaScript (ES6) code-snippets
+-JavaScript (ES6) code-snippets or others...
