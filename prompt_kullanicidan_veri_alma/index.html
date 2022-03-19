@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prompt</title>
+</head>
+<body>
+    
+
+
+
+
+
+
+
+
+    <script>
+        //let get_input = window.prompt("Please enter name: "); //ilk yöntem
+        //let get_input = window.prompt("Please enter name: "); //window yazisi olmadan da calisir.
+
+        //let passwords = prompt("Enter pass: ", "Default pass: 1234");
+
+        //////////////////////////////////////////////////////////////////////////////////////////
+
+        /* let name = prompt("Enter name: ");
+
+        if((name != "") && (name != null)) {
+            alert("Hello " + name);
+        }
+        else if (name === "") {
+            alert("Enter your name")
+        }
+        else if (name === null) {
+            alert("Name cannot be null") //if user clicks 'cancel'
+        } */
+
+        //////////////////////////////////////////////////////////////////////////////////////////
+
+        /* let username = prompt("Enter nickname: ");
+        let password = prompt("Enter pass: ");
+
+        let databaseusername = "admin";
+        let databasepassword = "1234";
+
+        if((username === databaseusername) && (password === databasepassword)) {
+            alert("Access granted. Welcome " + username);
+        }
+        else{
+            alert("Wrong User/Pass")
+        } */
+
+        //////////////////////////////////////////////////////////////////////////////////////////
+
+        let x = prompt("Enter first number: ");
+        let y = prompt("Enter second number: ");
+        //prompt her zaman degerleri string olarak algilar.
+        //onun icin asagidaki islemi yapariz.
+        x = parseInt(x);
+        y = parseInt(y);
+        alert(x + y);
+
+    </script>
+</body>
+</html>
